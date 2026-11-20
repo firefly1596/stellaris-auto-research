@@ -1,0 +1,823 @@
+# 科技 key ↔ 中文名 速查表
+
+> 查日志里的 `tech_xxx` 对应哪个中文科技。用 `Ctrl+F` 搜 key 或中文名。
+> 数据源：`4.5.2"天鹅座"天灾宝典.xlsx` 的「科技」表。游戏版本 4.5.4。
+
+## 目录
+
+| 领域 | 等级 | 条数 |
+|---|---|---|
+| 物理 | [t0](#物理-t0) | 10 |
+|  | [t1](#物理-t1) | 19 |
+|  | [t2](#物理-t2) | 45 |
+|  | [t3](#物理-t3) | 29 |
+|  | [t4](#物理-t4) | 28 |
+|  | [t5](#物理-t5) | 36 |
+| **物理 合计** | | **167** |
+| 社会 | [t0](#社会-t0) | 12 |
+|  | [t1](#社会-t1) | 39 |
+|  | [t2](#社会-t2) | 67 |
+|  | [t3](#社会-t3) | 80 |
+|  | [t4](#社会-t4) | 47 |
+|  | [t5](#社会-t5) | 67 |
+| **社会 合计** | | **312** |
+| 工程 | [t0](#工程-t0) | 16 |
+|  | [t1](#工程-t1) | 24 |
+|  | [t2](#工程-t2) | 48 |
+|  | [t3](#工程-t3) | 33 |
+|  | [t4](#工程-t4) | 34 |
+|  | [t5](#工程-t5) | 44 |
+| **工程 合计** | | **199** |
+| 未标注 | [t2](#未标注-t2) | 1 |
+| **未标注 合计** | | **1** |
+
+---
+
+# 物理领域（167 条）
+
+## 物理 T0（10 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_pd_tracking_1` | 主动反制 |
+| `tech_subspace_drive` | 亚空间引擎 |
+| `tech_shields_1` | 偏射盾 |
+| `tech_reactor_boosters_1` | 反应堆增压器 |
+| `tech_space_exploration` | 太空探索 |
+| `tech_basic_science_lab_1` | 科学方法 |
+| `tech_lasers_1` | 红激光发射器 |
+| `tech_fission_power` | 裂变能源 |
+| `tech_hyper_drive_1` | 超空间移动 |
+| `tech_power_plant_1` | 高能电容器 |
+
+## 物理 T1（19 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_reactor_boosters_3` | 先进反应堆增压器 |
+| `tech_power_hub_1` | 全球能源管理 |
+| `tech_power_plant_2` | 力场调制 |
+| `tech_basic_science_lab_2` | 外星材料实验室 |
+| `tech_storm_prediction_1` | 宇宙天气模型 |
+| `tech_space_science_2` | 微型遏制力场 |
+| `tech_shields_2` | 改良偏射盾 |
+| `tech_reactor_boosters_2` | 改良反应堆增压器 |
+| `tech_combat_computers_1` | 特种作战计算机 |
+| `tech_administrative_ai` | 管理型人工智能 |
+| `tech_fusion_power` | 聚变能源 |
+| `tech_cryostasis_1` | 自动化殖民船 |
+| `tech_automated_exploration` | 自动探索协议 |
+| `tech_lasers_2` | 蓝激光发射器 |
+| `tech_auxiliary_fire_control` | 辅助火控 |
+| `tech_physics_1` | 量子计算 |
+| `tech_encryption_1` | 量子防火墙 |
+| `tech_decryption_1` | 量子骇客 |
+| `tech_space_science_1` | 零重力实验室 |
+
+## 物理 T2（45 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_trinary_computing` | 三元计算技术 |
+| `tech_pd_tracking_2` | 互联支援系统 |
+| `tech_sensors_bio_integration` | 传感器生物整合 |
+| `tech_assisted_detection` | 先进探测算法 |
+| `tech_orbital_maneuvers` | 先进轨道机动 |
+| `tech_cold_fusion_power` | 冷核聚变能源 |
+| `tech_encryption_2` | 同时崩塌存储 |
+| `tech_cloaking_1` | 基础隐形场 |
+| `tech_atmospheric_orbital_mechanics` | 大气轨道力学 |
+| `tech_consumer_good_refinement_1` | 市场分析算法 |
+| `tech_unusual_senses` | 异常传感 |
+| `tech_gravity_snare_capacity_1` | 微型奇点强化 |
+| `tech_mine_volatile_motes` | 微粒稳定化 |
+| `tech_combat_computers_bio_integration` | 战斗计算机生物整合 |
+| `tech_dyson_swarm` | 戴森云 |
+| `tech_shields_3` | 护盾 |
+| `tech_shield_rechargers_1` | 护盾电容 |
+| `tech_shield_hardeners_1` | 护盾硬化 |
+| `tech_detection_array` | 探测阵列 |
+| `tech_new_numbers` | 新数字 |
+| `tech_volatile_motes` | 易爆材料生产厂 |
+| `tech_astral_harvesting` | 星界采收 |
+| `tech_decryption_2` | 模拟社会工程 |
+| `tech_plasma_1` | 等离子发射器 |
+| `tech_curator_lab` | 策展人探索实验室 |
+| `tech_archeology_lab` | 策展人考古实验室 |
+| `tech_lasers_3` | 紫外激光发射器 |
+| `tech_physics_2` | 统一场理论 |
+| `tech_space_science_4` | 自主运行空间站协议 |
+| `tech_self_aware_logic` | 自我演化逻辑 |
+| `tech_power_hub_2` | 行星电力网 |
+| `tech_disruptors_1` | 裂解炮 |
+| `tech_rift_sphere` | 裂隙探球 |
+| `tech_experimental_subspace_navigation` | 试验性超空间导航 |
+| `tech_ftl_inhibitor` | 超光速抑制 |
+| `tech_hyper_drive_bio_integration` | 超光速生物整合 |
+| `tech_hyper_relays` | 超空间中继器 |
+| `tech_hyper_drive_2` | 超空间航道突破点 |
+| `tech_mining_drone_weapon_1` | 采矿无人机激光 |
+| `tech_sensors_2` | 重力传感器 |
+| `tech_gravity_wells` | 重力陷阱 |
+| `tech_space_science_3` | 量子探测器 |
+| `tech_power_plant_3` | 量子能态 |
+| `tech_space_cloud_weapon_1` | 雷云导线 |
+| `tech_storm_manipulation` | 风暴操控 |
+
+## 物理 T3（29 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_lgate_activation` | L-星门启动 |
+| `tech_lasers_4` | X射线发射器 |
+| `tech_sensors_3` | 亚空间传感器 |
+| `tech_shields_4` | 先进护盾 |
+| `tech_advanced_storm_manipulation` | 先进风暴操控 |
+| `tech_antimatter_power` | 反物质能源 |
+| `tech_space_science_5` | 多维分析 |
+| `tech_basic_science_lab_3` | 多维研究 |
+| `tech_combat_computers_2` | 拓展战斗算法 |
+| `tech_mine_dark_matter` | 暗物质收集 |
+| `tech_storm_prediction_2` | 概率流 |
+| `tech_akx_worm_3` | 欧米伽理论 |
+| `tech_akx_worm_1` | 熵递归 |
+| `tech_disruptors_2` | 离子裂解炮 |
+| `tech_science_arkship` | 科研方舟 |
+| `tech_plasma_2` | 等离子加速器 |
+| `tech_containment_vessel` | 策展人收容协议 |
+| `tech_cryostasis_2` | 自我意识殖民船 |
+| `tech_wormhole_stabilization` | 虫洞稳定 |
+| `tech_planetary_shield_generator` | 行星护盾 |
+| `tech_energy_torpedoes_1` | 质子发射器 |
+| `tech_hyper_drive_3` | 超空间滑流 |
+| `tech_global_research_initiative` | 跨行星研究倡议 |
+| `tech_gravity_snare_capacity_2` | 重力操纵优化 |
+| `tech_power_plant_4` | 量子场操控 |
+| `tech_quantum_catapult` | 量子弹弓 |
+| `tech_neuro_quantum_links` | 量子神经链接 |
+| `tech_physics_3` | 量子重力波 |
+| `tech_cloaking_2` | 高级隐形场 |
+
+## 物理 T4（28 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_energy_torpedoes_2` | 中子发射器 |
+| `tech_arkship_system_scanner` | 亚空间成像阵列 |
+| `tech_lasers_5` | 伽马激光 |
+| `tech_decryption_3` | 准维映射 |
+| `tech_synchronized_defences` | 同步防御 |
+| `tech_arkship_exodus_jump` | 大迁徙跃迁协调仪 |
+| `tech_cosmogenesis_thesis` | 应用无限课题 |
+| `tech_sensors_4` | 快子传感器 |
+| `tech_energy_lance_2` | 快子光矛 |
+| `tech_arkship_stellar_igniter` | 恒星引擎 |
+| `tech_gravity_snare_capacity_3` | 收容系统改进 |
+| `tech_starfire_cannon` | 星火炮 |
+| `tech_gateway_activation` | 星门激活 |
+| `tech_combat_computers_3` | 智慧战斗模拟 |
+| `tech_sapient_ai` | 正电子人工智能 |
+| `tech_positronic_implants` | 正电子脑植入体 |
+| `tech_arc_emitter_1` | 电弧发射器 |
+| `tech_disruptors_3` | 相位裂解炮 |
+| `tech_plasma_3` | 等离子加农炮 |
+| `tech_energy_lance_1` | 粒子光矛 |
+| `tech_cloaking_3` | 精英隐形场 |
+| `tech_arc_emitter_2` | 聚能电弧发射器 |
+| `tech_combat_computers_autonomous` | 自律舰船智能 |
+| `tech_encryption_3` | 负时间密钥 |
+| `tech_shields_5` | 超级护盾 |
+| `tech_zero_point_power` | 零点能源 |
+| `tech_consumer_good_refinement_2` | 预测消费 |
+| `tech_pd_tracking_3` | 预测算法 |
+
+## 物理 T5（36 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_fe_singularity_1` | 三级奇点 |
+| `tech_pk_neutron` | 中子灭杀 |
+| `tech_shield_hardeners_2` | 先进护盾硬化 |
+| `tech_sentry_array` | 哨兵阵列 |
+| `tech_fe_singularity_2` | 四级奇点 |
+| `tech_synth_queen_knowledge` | 塞塔娜之思 |
+| `tech_pk_shielder` | 安乐天使 |
+| `tech_repeatable_reduced_building_cost` | 引力分析 |
+| `tech_repeatable_weapon_type_energy_fire_rate` | 快速冷却剂 |
+| `tech_dyson_sphere` | 戴森球 |
+| `tech_repeatable_improved_shield_output` | 护盾数律分析 |
+| `tech_cosmogenesis_crisis_1` | 指数学习理论 |
+| `tech_cosmogenesis_crisis_5` | 新生宇宙 |
+| `tech_cosmogenesis_crisis_3` | 无限理论课题 |
+| `tech_gateway_construction` | 星门建造 |
+| `tech_dark_matter_deflector` | 暗物质偏导护盾 |
+| `tech_dark_matter_detection` | 暗物质探测 |
+| `tech_dark_matter_power_core` | 暗物质能源 |
+| `tech_cloaking_dark_matter` | 暗物质隐形场 |
+| `tech_matter_decompressor` | 物质解压器 |
+| `tech_cosmogenesis_crisis_4` | 现实法则 |
+| `tech_fe_silo_1` | 皱缩空间仓库 |
+| `tech_enigmatic_encoder` | 神秘编码器 |
+| `tech_enigmatic_decoder` | 神秘解码器 |
+| `tech_science_nexus` | 科学枢纽 |
+| `tech_lathe_resonator` | 突触共振器 |
+| `tech_lathe_overclocker` | 突触超频器 |
+| `tech_lathe_validator` | 突触验证器 |
+| `tech_repeatable_weapon_type_energy_damage` | 聚焦阵列 |
+| `tech_repeatable_improved_tile_energy_output` | 超导应用 |
+| `tech_fe_lab_2` | 超然创新部 |
+| `tech_jump_drive_1` | 跃迁引擎 |
+| `tech_cosmogenesis_crisis_2` | 重力笔刷 |
+| `tech_fe_lab_1` | 量子创新枢纽 |
+| `tech_fe_silo_2` | 高维度仓库 |
+| `tech_extradimensional_weapon_1` | 高维武器 |
+
+---
+
+# 社会领域（312 条）
+
+## 社会 T0（12 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_holo_entertainment` | 全息影像娱乐 |
+| `tech_industrial_farming` | 农业工业化 |
+| `tech_basic_health` | 医疗护理 |
+| `tech_wilderness_node` | 存在之核 |
+| `tech_colonization_1` | 新世界协议 |
+| `tech_interplanetary_commerce` | 星际贸易 |
+| `tech_hydroponics` | 水培农业 |
+| `tech_critter_feeder` | 硕果花园 |
+| `tech_hive_node` | 突触建筑 |
+| `tech_planetary_government` | 统一政府 |
+| `tech_wilderness_terraform` | 行星萌芽 |
+| `tech_planetary_defenses` | 行星防御 |
+
+## 社会 T1（39 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_mauler_growth_2` | 先进颚蚁发育 |
+| `tech_quicksand_basin` | 土壤修复 |
+| `tech_deep_sinkhole` | 地下殖民 |
+| `tech_ground_defense_planning` | 地面防御计划 |
+| `tech_frontier_health` | 基因健康保障 |
+| `tech_genome_mapping` | 基因图谱 |
+| `tech_xeno_linguistics` | 外星语言学 |
+| `tech_space_trading` | 外星贸易公司 |
+| `tech_weaver_bio_healing_1` | 孢子发射器 |
+| `tech_doctrine_fleet_size_1` | 学说：太空战斗 |
+| `tech_doctrine_navy_size_1` | 学说：舰队支援 |
+| `tech_weaver_bio_confuser_1` | 幽暗孢子 |
+| `tech_society_1` | 异星生物学 |
+| `tech_noxious_swamp` | 异种水力掌控 |
+| `tech_alien_life_studies` | 异种生物学 |
+| `tech_mauler_growth_1` | 改进颚蚁孵化 |
+| `tech_hyper_entertainment_forum` | 极乐广场 |
+| `tech_weaver_build_speed` | 标准织蛛孵化 |
+| `tech_mauler_build_speed` | 标准颚蚁孵化 |
+| `tech_massive_glacier` | 气候控制网络 |
+| `tech_living_test_subjects` | 活体实验对象 |
+| `tech_toxic_kelp` | 海洋生态管理 |
+| `tech_adaptive_bureaucracy` | 灵活机构 |
+| `tech_eco_simulation` | 生态模拟 |
+| `tech_bio_reactor` | 生物反应堆 |
+| `tech_weaver_bio_anti_evasion_1` | 矢量锁定大炮 |
+| `tech_cultural_heritage` | 社会文化历史 |
+| `tech_planetary_unification` | 社会统一 |
+| `tech_neural_implants` | 神经植入体 |
+| `tech_weavers` | 织蛛 |
+| `tech_weaver_bio_fire_rate_1` | 织蛛生物场发生器 |
+| `tech_federation_code` | 联邦程序 |
+| `tech_weaver_bio_evasion_1` | 能量增幅器 |
+| `tech_weaver_bio_anti_fire_rate_1` | 装填阻扰器 |
+| `tech_gargantuan_evolution` | 超体进化 |
+| `tech_dense_jungle` | 选择性脱叶剂 |
+| `tech_space_whale_weapon_1` | 频率调谐 |
+| `tech_maulers` | 颚蚁 |
+| `tech_food_processing_1` | 食品加工 |
+
+## 社会 T2（67 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_alien_cloning` | 人工繁育 |
+| `tech_artificial_moral_codes` | 人工道德规范 |
+| `tech_satisfying_insults` | 令人满意的侮辱技巧 |
+| `tech_heritage_site` | 传承遗迹 |
+| `tech_bio_reactor_2` | 先进生物反应堆 |
+| `tech_weaver_growth_2` | 先进织蛛发育 |
+| `tech_cloning` | 克隆 |
+| `tech_holographic_rituals` | 全息仪式 |
+| `tech_global_defense_grid` | 全球防御网络 |
+| `tech_cryovault` | 冰封星球栖息地 |
+| `tech_node_culling_1` | 初步节点剔除 |
+| `tech_node_reformatting_1` | 初步节点格式化 |
+| `tech_controlled_mutations` | 可控变异 |
+| `tech_volcano` | 地壳深部工程 |
+| `tech_terrestrial_sculpting` | 地表塑造 |
+| `tech_mountain_range` | 地表重塑 |
+| `tech_gene_banks` | 基因库 |
+| `tech_alien_topography` | 外星地形学 |
+| `tech_colonization_2` | 大气过滤 |
+| `tech_arcane_deciphering` | 奥术解密 |
+| `tech_slave_colonies` | 奴隶星球 |
+| `tech_doctrine_navy_size_2` | 学说：支援船队 |
+| `tech_doctrine_fleet_size_2` | 学说：灵巧编队 |
+| `tech_resort_colonies` | 度假星球 |
+| `tech_xeno_aesthetics` | 异星美学 |
+| `tech_xeno_diplomacy` | 异种外交 |
+| `tech_enhanced_cryosleep_sedatives` | 强化冻眠镇静剂 |
+| `tech_colonization_3` | 恶劣环境适应 |
+| `tech_predatory_tactics` | 掠食策略 |
+| `tech_weaver_bio_healing_2` | 改良孢子发射器 |
+| `tech_improved_incubators` | 改进孵化器 |
+| `tech_capital_productivity_1` | 改进生产 |
+| `tech_weaver_growth_1` | 改进织蛛孵化 |
+| `tech_galactic_archivism` | 星系归档 |
+| `tech_interstellar_campaigns` | 星际战役 |
+| `tech_galactic_ambitions` | 星际扩张 |
+| `tech_interstellar_fleet_traditions` | 星际舰队传统 |
+| `tech_colonial_bureaucracy` | 殖民官僚制 |
+| `tech_colonial_centralization` | 殖民集中 |
+| `tech_living_state` | 活体国度 |
+| `tech_vitality_boosters` | 活性增强剂 |
+| `tech_penal_colonies` | 流放地 |
+| `tech_dangerous_wildlife` | 清除危险野生动物 |
+| `tech_weaver_bio_anti_fire_rate_2` | 火力干扰器 |
+| `tech_volcanic_forge` | 火山熔炉 |
+| `tech_volcanic_terraforming` | 火山环境改造 |
+| `tech_psionic_suppression` | 灵能压制 |
+| `tech_planetary_infrastructure_1` | 瓷金基础设施 |
+| `tech_subdermal_stimulation` | 皮下刺激 |
+| `tech_society_2` | 神经编织 |
+| `tech_archeology_lab_ancrel` | 策展人考古实验室 |
+| `tech_hive_cluster` | 簇状突触 |
+| `tech_wilderness_cluster` | 簇状突触 |
+| `tech_frontier_hospital` | 细胞修复 |
+| `tech_weaver_bio_fire_rate_2` | 织蛛增益发射器 |
+| `tech_weaver_bio_confuser_2` | 缠结脉冲 |
+| `tech_weaver_bio_evasion_2` | 缠绕荚舱发射器 |
+| `tech_autonomous_agents` | 自主代理 |
+| `tech_adaptive_combat_algorithms` | 自适应作战算法 |
+| `tech_compact_living` | 蜗居 |
+| `tech_epigenetic_triggers` | 表观遗传学触发器 |
+| `tech_gene_crops` | 转基因作物 |
+| `tech_archaeostudies` | 远古学 |
+| `tech_weaver_bio_anti_evasion_2` | 酶解撒网器 |
+| `tech_amoeba_strike_craft_1` | 鞭毛武器化 |
+| `tech_effective_bureaucracy` | 高效吏治 |
+| `tech_unity_of_purpose` | 齐心协力 |
+
+## 社会 T3（80 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_universal_marcophage` | 万能巨噬细胞 |
+| `tech_metabolic_gases` | 代谢气体 |
+| `tech_weaver_bio_healing_3` | 先进孢子发射器 |
+| `tech_aura_resonation` | 光环共鸣 |
+| `tech_global_production_strategy` | 全球生产策略 |
+| `tech_embodied_dynamism` | 具现物力论 |
+| `tech_regenerative_hull_tissue` | 再生舰体组织 |
+| `tech_housing_agrarian_idyll` | 农业乌托邦 |
+| `tech_unique_mutation_crystalline_entity` | 分裂核心 |
+| `tech_unique_mutation_voidworm` | 剧毒囊肿 |
+| `tech_unique_mutation_space_amoeba` | 吸血鞭毛 |
+| `tech_georadiation_terraforming` | 地质辐射环境改造 |
+| `tech_gene_tailoring` | 基因剪裁 |
+| `tech_gene_expressions` | 基因定向表达 |
+| `tech_node_culling_2` | 基本节点剔除 |
+| `tech_node_reformatting_2` | 基本节点格式化 |
+| `tech_colonization_4` | 外星土壤肥化 |
+| `tech_xeno_tourism_agency` | 外星拓展中介 |
+| `tech_akx_worm_2` | 学说：奇异循环 |
+| `tech_doctrine_navy_size_3` | 学说：星际后勤 |
+| `tech_doctrine_fleet_size_3` | 学说：星际战争 |
+| `tech_harbingers` | 孵后 |
+| `tech_weaver_bio_anti_evasion_3` | 寻觅碎片阵列 |
+| `tech_xeno_relations` | 异星关系学 |
+| `tech_weaver_bio_anti_fire_rate_3` | 心智导弹 |
+| `tech_telepathy` | 心灵感应 |
+| `tech_hive_confluence` | 思想集簇 |
+| `tech_wilderness_confluence` | 思想集簇 |
+| `tech_combat_training` | 战斗训练 |
+| `tech_prescient_data_modeling` | 拜金教数据建模 |
+| `tech_selected_lineages` | 择优血脉 |
+| `tech_command_matrix` | 指挥矩阵 |
+| `tech_consecration_fields` | 授圣力场 |
+| `tech_refit_standards` | 改装标准 |
+| `tech_harbinger_growth_2` | 改进孵后发育 |
+| `tech_harbinger_growth_1` | 改进孵后孵化 |
+| `tech_weaver_bio_evasion_3` | 敏捷尖峰阵列 |
+| `tech_galactic_bureaucracy` | 星河官僚制 |
+| `tech_galactic_administration` | 星系管理 |
+| `tech_interstellar_economics` | 星际经济学 |
+| `tech_hypercomms_forum` | 本地超通讯 |
+| `tech_harbinger_build_speed` | 标准孵后孵化 |
+| `tech_tomb_world_adaption` | 死寂星球适应 |
+| `tech_civilian_arkship` | 民用方舟 |
+| `tech_deep_space_citadel` | 深空擎天堡 |
+| `tech_psionic_aura` | 灵能光环 |
+| `tech_psionic_barrier` | 灵能屏障 |
+| `tech_psionic_theory` | 灵能理论 |
+| `tech_materiality_engine` | 物现引擎 |
+| `tech_ecological_adaptation` | 生态适应 |
+| `tech_society_3` | 生物构造合成 |
+| `tech_paradise_dome` | 田园建筑学 |
+| `tech_weaver_bio_confuser_3` | 神经浩劫 |
+| `tech_nano_vitality_crops` | 纳米活性作物 |
+| `tech_weaver_bio_fire_rate_3` | 织蛛有机科技增幅器 |
+| `tech_synthetic_thought_patterns` | 综合思维模式 |
+| `tech_unique_mutation_tiyanki` | 群兽合唱 |
+| `tech_unique_mutation_cutholoid` | 胃袋喷泉 |
+| `tech_glandular_acclimation` | 腺体适应 |
+| `tech_autocurating_vault` | 自动综合处理算法 |
+| `tech_mine_zro` | 蒸馏泽珞 |
+| `tech_voidworm_immunity` | 虚空虫免疫 |
+| `tech_capital_productivity_2` | 规模效应 |
+| `tech_resource_processing_algorithms` | 资源处理算法 |
+| `tech_archaeo_rampart` | 远古壁垒 |
+| `tech_archaeo_mass_drivers` | 远古巨炮组 |
+| `tech_archaeoshield` | 远古延留力场 |
+| `tech_archaeo_overcharger` | 远古护盾超频器 |
+| `tech_archaeo_lasers` | 远古穴蚀坍缩器 |
+| `tech_archaeo_refinery` | 远古精炼厂 |
+| `tech_archaeo_missiles` | 远古纳米导弹云发射器 |
+| `tech_archaeoarmor` | 远古脉冲装甲 |
+| `tech_archaeo_strike_crafts` | 远古钻孔机无人机 |
+| `tech_archaeo_point_defence` | 远古防御投网机 |
+| `tech_archaeo_mass_accelerator` | 远古饱和剂发射炮 |
+| `tech_centralized_command` | 集中指挥 |
+| `tech_collective_production_methods` | 集体生产方法 |
+| `tech_collective_self` | 集体自我 |
+| `tech_executive_retreat` | 高管休闲项目 |
+| `tech_food_processing_2` | 高级食品加工 |
+
+## 社会 T4（47 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_secrets_irassian` | 伊拉斯人海军船坞 |
+| `tech_stinger_growth_2` | 先进刺蜂发育 |
+| `tech_growth_chamber_2` | 先进发育室 |
+| `tech_controlled_mutations_2` | 先进可控变异 |
+| `tech_node_culling_3` | 先进节点剔除 |
+| `tech_node_reformatting_3` | 先进节点格式化 |
+| `tech_stingers` | 刺蜂 |
+| `tech_growth_chamber_1` | 发育室 |
+| `tech_gene_seed_purification` | 基因种子纯化 |
+| `tech_doctrine_fleet_size_4` | 学说：机动舰队模板 |
+| `tech_doctrine_navy_size_4` | 学说：舰队联络 |
+| `tech_secrets_yuht` | 尤特天文干涉仪 |
+| `tech_secrets_baol` | 巴奥有机工厂 |
+| `tech_weaver_bio_confuser_4` | 废墟倒钩 |
+| `tech_morphogenetic_field_mastery` | 形态发生学精通 |
+| `tech_thought_enforcement` | 思想钢印 |
+| `tech_weaver_bio_anti_evasion_4` | 捕捉加速器 |
+| `tech_stinger_growth_1` | 改进刺蜂孵化 |
+| `tech_unique_mutation_starborne_biology` | 星养生理 |
+| `tech_galactic_campaigns` | 星河战役 |
+| `tech_manifest_destiny` | 昭昭天命 |
+| `tech_capital_productivity_3` | 最大化产能 |
+| `tech_stinger_build_speed` | 标准刺蜂孵化 |
+| `tech_climate_restoration` | 气候复苏 |
+| `tech_secrets_vultaum` | 沃陶姆现实计算机 |
+| `tech_galactic_markets` | 泛星系贸易市场 |
+| `tech_secrets_zroni` | 泽珞风暴投射器 |
+| `tech_aura_intensification` | 灵能光环增强 |
+| `tech_colonization_5` | 生态整合研究 |
+| `tech_biomechanics` | 生物力学 |
+| `tech_weaver_bio_evasion_4` | 电喷雾器 |
+| `tech_neuroregeneration` | 神经组织工程 |
+| `tech_secrets_league` | 第一联盟归档办公室 |
+| `tech_weaver_bio_fire_rate_4` | 织蛛光环投射器 |
+| `tech_planetary_infrastructure_2` | 耐钢基础设施 |
+| `tech_capacity_boosters` | 能力增强 |
+| `tech_unique_mutation_restorative_enzymes` | 自我再生酶 |
+| `tech_nutrient_replication` | 营养复制 |
+| `tech_secrets_cybrex` | 赛博勒克斯采矿核心 |
+| `tech_transcendent_faith` | 超意识信仰 |
+| `tech_archaeo_titan_beam` | 远古湮灭眩光 |
+| `tech_archaeo_detection_scrambler` | 远古索敌扰频器 |
+| `tech_tracking_implants` | 追踪植入体 |
+| `tech_weaver_bio_healing_4` | 适应性孢子发射器 |
+| `tech_weaver_bio_anti_fire_rate_4` | 降解射线 |
+| `tech_precognition_interface` | 预知接口 |
+| `tech_ascension_theory` | 飞升理论 |
+
+## 社会 T5（67 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_repeatable_improved_army_damage` | 主动适应 |
+| `tech_fe_dome_2` | 九天穹顶 |
+| `tech_covenant_whisperers` | 低语刻印 |
+| `tech_weaver_bio_healing_6` | 再生孢子 |
+| `tech_fe_administration_1` | 分型行政流程 |
+| `tech_fe_clinic_1` | 分子焕活所 |
+| `tech_repeatable_command_limit` | 司令幕僚 |
+| `tech_fe_security_1` | 司法复合体 |
+| `tech_fe_security_2` | 司法殿堂 |
+| `tech_covenant_eater` | 喰煞刻印 |
+| `tech_covenant_instrument` | 器具刻印 |
+| `tech_cosmogenesis_weaver` | 困境织蛛 |
+| `tech_fe_dome_1` | 天空穹顶 |
+| `tech_existential_campaigns` | 存亡运动 |
+| `tech_doctrine_fleet_size_5` | 学说：舰队阵型 |
+| `tech_cosmogenesis_mauler` | 密文颚蚁 |
+| `tech_mega_shipyard` | 巨型船坞 |
+| `tech_mega_art` | 巨型艺术设施 |
+| `tech_weaver_bio_anti_fire_rate_5` | 恶魔压制器 |
+| `tech_strategic_coordination` | 战略指挥中心 |
+| `tech_fe_entertainment_2` | 无尽极乐枢纽 |
+| `tech_fe_market_1` | 星系贸易中心 |
+| `tech_repeatable_improved_starbase_capacity` | 星际扩张 |
+| `tech_fe_market_2` | 星际贸易枢纽 |
+| `tech_interstellar_assembly` | 星际集会 |
+| `tech_weaver_bio_healing_5` | 智慧适应性孢子发射器 |
+| `tech_covenant_cradle` | 月窠刻印 |
+| `tech_zro_launcher` | 泽珞发射器 |
+| `tech_weaver_bio_confuser_6` | 浩劫风暴 |
+| `tech_psionic_shield` | 灵能护盾 |
+| `tech_cloaking_psi` | 灵能相位场发生器 |
+| `tech_psionic_disruptor` | 灵能裂解炮 |
+| `tech_psi_jump_drive_1` | 灵能跃迁引擎 |
+| `tech_psionic_bombers` | 灵能轰炸机 |
+| `tech_psionic_lightning` | 灵能雷霆 |
+| `tech_weaver_bio_anti_evasion_5` | 猎物追踪器 |
+| `tech_fe_clinic_2` | 生物再生所 |
+| `tech_pk_godray` | 神圣激素 |
+| `tech_fe_fortress_2` | 神盾基地 |
+| `tech_cosmogenesis_stinger` | 神秘刺蜂 |
+| `tech_repeatable_improved_army_health` | 神经抑制器 |
+| `tech_lathe_preserver` | 突触保存器 |
+| `tech_repeatable_weapon_type_strike_craft_fire_damage` | 突触拦截器 |
+| `tech_lathe_cogitator` | 突触沉思器 |
+| `tech_lathe_life_support` | 突触维持器 |
+| `tech_repeatable_improved_leader_life_span` | 细胞活力 |
+| `tech_covenant_composer` | 织缕刻印 |
+| `tech_weaver_bio_fire_rate_5` | 织蛛迅捷射击器 |
+| `tech_weaver_bio_fire_rate_6` | 织蛛造波器 |
+| `tech_weaver_bio_evasion_6` | 自适应卷须 |
+| `tech_repeatable_naval_cap` | 舰队管理规程 |
+| `tech_fe_nourishment_2` | 营养中心 |
+| `tech_fe_nourishment_1` | 营养复合体 |
+| `tech_fe_entertainment_1` | 虚拟极乐广场 |
+| `tech_scourge_missile_1` | 虫灾导弹 |
+| `tech_swarm_strike_craft_1` | 虫群产卵池 |
+| `tech_repeatable_improved_core_system_cap` | 行政效率 |
+| `tech_repeatable_improved_tile_food_output` | 转基因作物 |
+| `tech_repeatable_weapon_type_strike_craft_fire_rate` | 迭代式飞行员培训 |
+| `tech_cosmogenesis_harbinger` | 迷宫孵后 |
+| `tech_weaver_bio_anti_fire_rate_6` | 追迹中止器 |
+| `tech_fe_fortress_1` | 重盾垣壁 |
+| `tech_fe_administration_2` | 量子行政流程 |
+| `tech_weaver_bio_evasion_5` | 闪避飞镖 |
+| `tech_archaeo_pk_devolving_beam` | 降智光束 |
+| `tech_weaver_bio_confuser_5` | 陷阱飞镖 |
+| `tech_weaver_bio_anti_evasion_6` | 高精矛枪 |
+
+---
+
+# 工程领域（199 条）
+
+## 工程 T0（16 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_thrusters_1` | 化学推进器 |
+| `tech_space_construction` | 外太空建设 |
+| `tech_basic_industry` | 工业基地 |
+| `tech_starbase_1` | 恒星基地建设 |
+| `tech_nomads_mechanized_mining` | 战略资源开采 |
+| `tech_corvettes` | 护卫舰 |
+| `tech_starbase_2` | 星港 |
+| `tech_assault_armies` | 星际远征军 |
+| `tech_mechanized_mining` | 机械化开采 |
+| `tech_missiles_1` | 核导弹 |
+| `tech_space_defense_station_1` | 深空防御 |
+| `tech_ship_armor_1` | 纳米复合材料 |
+| `tech_mass_drivers_1` | 质量投射器 |
+| `tech_solar_panel_network` | 轨道能源转化技术 |
+| `tech_waystation_1` | 驿站 |
+| `tech_flak_batteries_1` | 高射炮 |
+
+## 工程 T1（24 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_robotic_workers` | 人造劳动力 |
+| `tech_afterburners_1` | 加力燃烧室 |
+| `tech_powered_exoskeletons` | 动力外骨骼 |
+| `tech_alloys_1` | 固态全息铸模 |
+| `tech_mining_1` | 地热水力压裂 |
+| `tech_torpedoes_1` | 太空鱼雷 |
+| `tech_corvette_hull_1` | 改进护卫舰船体 |
+| `tech_robomodding_m` | 机械模板系统 |
+| `tech_robomodding` | 机械模板系统 |
+| `tech_corvette_build_speed` | 标准化护卫舰模板 |
+| `tech_ship_armor_2` | 瓷金复合材料 |
+| `tech_mineral_purification_1` | 矿物提纯 |
+| `tech_engineering_1` | 纳米力学 |
+| `tech_luxuries_1` | 纳米电路装配 |
+| `tech_mass_drivers_2` | 线圈炮 |
+| `tech_missiles_2` | 聚变核导弹 |
+| `tech_strike_craft_1` | 航母作战 |
+| `tech_industrial_storm_protection` | 行星风暴抵御 |
+| `tech_boarding_cables` | 跳帮缆索 |
+| `tech_orbital_trash_dispersal` | 轨道垃圾散布 |
+| `tech_ship_storm_weapons_1` | 载荷垫料 |
+| `tech_space_mining_2` | 远距离矿物扫描仪 |
+| `tech_space_mining_1` | 零重力精炼厂 |
+| `tech_ship_hull_storm_breaker_1` | 风暴抑制发生器 |
+
+## 工程 T2（48 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_repeatable_lcluster_clue` | L-星门线索 |
+| `tech_robomodding_points_1` | 交叉模组标准化 |
+| `tech_temple_of_transportation` | 交通神殿 |
+| `tech_droid_workers` | 人造专家 |
+| `tech_corvette_hull_2` | 先进护卫舰船体 |
+| `tech_mineral_purification_2` | 先进矿物提纯 |
+| `tech_missiles_3` | 反物质导弹 |
+| `tech_alloy_fossilization` | 合金化石化 |
+| `tech_mining_2` | 地心开采 |
+| `tech_ship_armor_3` | 塑钢材料 |
+| `tech_lost_building_methods` | 失落建筑模式 |
+| `tech_mine_exotic_gases` | 异星天然气开采 |
+| `tech_exotic_gases` | 异星天然气精炼 |
+| `tech_micro_replicators` | 微型复制机 |
+| `tech_thrusters_bio_integration` | 推进器生物整合 |
+| `tech_defense_platform_hull_1` | 改善结构完整性 |
+| `tech_strike_craft_2` | 改良型舰载机 |
+| `tech_waystation_2` | 改良型驿道后勤 |
+| `tech_destroyer_hull_1` | 改进驱逐舰船体 |
+| `tech_integrated_cybernetics` | 整合式义体 |
+| `tech_starbase_3` | 星垒 |
+| `tech_ordered_retreat` | 有序撤退 |
+| `tech_autocannons_1` | 机关炮 |
+| `tech_destroyer_build_speed` | 标准化驱逐舰模板 |
+| `tech_modular_engineering` | 模块化工程 |
+| `tech_housing_1` | 气候控制系统 |
+| `tech_crystal_armor_1` | 水晶复合镀层 |
+| `tech_pyroclastic_resonation` | 熔岩碎屑共振 |
+| `tech_orbital_arc_furnace` | 电弧熔炉 |
+| `tech_space_mining_3` | 矿石切割束 |
+| `tech_ship_hull_storm_breaker_2` | 破飚涂层 |
+| `tech_thrusters_2` | 离子推进器 |
+| `tech_mine_rare_crystals` | 稀有水晶开采 |
+| `tech_rare_crystals` | 稀有水晶生产 |
+| `tech_nanite_transmutation` | 纳米变形 |
+| `tech_supreme_alloy` | 终极合金 |
+| `tech_space_mining_4` | 自动采矿无人机 |
+| `tech_engineering_2` | 自连接电路 |
+| `tech_swarmer_missiles_1` | 蜂群导弹 |
+| `tech_planetary_engineering` | 行星工程学 |
+| `tech_advanced_industrial_storm_protection` | 行星风暴消除 |
+| `tech_armor_hardeners_1` | 装甲硬化 |
+| `tech_assembly_pattern` | 装配模式 |
+| `tech_mine_betharian` | 贝赛里安精炼 |
+| `tech_mass_drivers_3` | 轨道炮 |
+| `tech_advanced_metallurgy_1` | 陶瓷合金 |
+| `tech_ship_storm_weapons_2` | 风暴限制结构 |
+| `tech_destroyers` | 驱逐舰 |
+
+## 工程 T3（33 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_binary_motivators` | 二进制内驱程序 |
+| `tech_afterburners_2` | 先进加力燃烧室 |
+| `tech_strike_craft_3` | 先进型舰载机 |
+| `tech_mass_drivers_4` | 先进轨道炮 |
+| `tech_destroyer_hull_2` | 先进驱逐舰船体 |
+| `tech_waystation_3` | 先进驿道后勤 |
+| `tech_military_arkship` | 军事方舟 |
+| `tech_kinetic_artillery_1` | 动能火炮 |
+| `tech_housing_2` | 反重力工程 |
+| `tech_luxuries_2` | 复制机终端 |
+| `tech_mandibles_2` | 复合咬颚 |
+| `tech_asteroidal_carapace` | 小行星甲壳 |
+| `tech_cruisers` | 巡洋舰 |
+| `tech_space_defense_station_improvement` | 工兵部队 |
+| `tech_autocannons_2` | 撕裂者机关炮 |
+| `tech_cruiser_hull_1` | 改进巡洋舰船体 |
+| `tech_arkship_tier_2` | 方舟工程 |
+| `tech_arkship_construction` | 方舟建造 |
+| `tech_starbase_4` | 星堡 |
+| `tech_orbital_ring_tier_1` | 星环基地 |
+| `tech_dyson_gun` | 星际大炮 |
+| `tech_cruiser_build_speed` | 标准化巡洋舰模板 |
+| `tech_mining_3` | 矿物分离 |
+| `tech_thrusters_3` | 等离子推进器 |
+| `tech_alloys_2` | 纳米分离器 |
+| `tech_space_mining_5` | 纳米矿物探测器 |
+| `tech_ship_armor_4` | 耐钢材料 |
+| `tech_self_assembling_components` | 自动组装部件 |
+| `tech_torpedoes_2` | 装甲鱼雷 |
+| `tech_engineering_3` | 超固体材料 |
+| `tech_habitat_1` | 轨道居住站 |
+| `tech_missiles_4` | 量子导弹 |
+| `tech_flak_batteries_2` | 高射加农炮 |
+
+## 工程 T4（34 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_identity_initialization` | 人格初始化 |
+| `tech_identity_fusion` | 人格融合 |
+| `tech_synthetic_leaders` | 人造人格矩阵 |
+| `tech_synthetic_workers` | 人造管理层 |
+| `tech_mass_accelerator_1` | 兆级加农炮 |
+| `tech_kinetic_artillery_2` | 先进动能火炮 |
+| `tech_cruiser_hull_2` | 先进巡洋舰船体 |
+| `tech_mass_accelerator_2` | 千兆级加农炮 |
+| `tech_robomodding_points_2` | 可替换电路 |
+| `tech_identity_copy` | 复制人格 |
+| `tech_habitat_2` | 居住站扩建 |
+| `tech_mega_assembly` | 巨型装配系统 |
+| `tech_construction_templates` | 建造模板 |
+| `tech_battleships` | 战列舰 |
+| `tech_missiles_5` | 掠夺者导弹 |
+| `tech_starbase_5` | 擎天堡 |
+| `tech_battleship_hull_1` | 改进战列舰船体 |
+| `tech_strike_craft_skrand` | 斯卡拉维德舰载机 |
+| `tech_swarmer_missiles_2` | 旋风导弹 |
+| `tech_mandibles_3` | 晶体咬颚 |
+| `tech_robot_assembly_complex` | 机器人装配系统 |
+| `tech_battleship_build_speed` | 标准化战列舰模板 |
+| `tech_torpedoes_3` | 毁灭者鱼雷 |
+| `tech_crystal_armor_2` | 水晶锻造镀层 |
+| `tech_autocannons_3` | 火风暴机关炮 |
+| `tech_arkship_tier_3` | 精通方舟 |
+| `tech_nanite_assemblers` | 纳米装配机 |
+| `tech_advanced_metallurgy_2` | 耐钢合金 |
+| `tech_thrusters_4` | 脉冲推进器 |
+| `tech_arkship_planetary_refinery` | 行星再处理器 |
+| `tech_flak_batteries_3` | 重型高射炮 |
+| `tech_ship_armor_5` | 零素材料 |
+| `tech_mass_drivers_5` | 高斯炮 |
+| `tech_habitat_3` | 高级太空居住站 |
+
+## 工程 T5（44 条）
+
+| key | 中文名 |
+|---|---|
+| `tech_juggernaut` | 主宰 |
+| `tech_dragon_armor` | 人造龙鳞装甲 |
+| `tech_battleship_hull_2` | 先进战列舰船体 |
+| `tech_titan_hull_2` | 先进泰坦船体 |
+| `tech_cosmogenesis_world` | 可缩放储备池计算 |
+| `tech_repeatable_improved_military_station_damage` | 同步开火模式 |
+| `tech_pk_cracker` | 地爆天星 |
+| `tech_nanite_repair_system_synth_queen` | 塞塔娜纳米机器人 |
+| `tech_pk_nanobots` | 大气纳米机器人散布 |
+| `tech_cosmogenesis_escort` | 密语护航舰 |
+| `tech_fe_affluence_1` | 富足商埠 |
+| `tech_repeatable_weapon_type_explosive_fire_rate` | 小型预点火装置 |
+| `tech_colossus` | 巨像 |
+| `tech_mega_engineering` | 巨型结构工程 |
+| `tech_repeatable_improved_military_station_health` | 强化核心层 |
+| `tech_cosmogenesis_FE_titan` | 悖论泰坦舰 |
+| `tech_repeatable_improved_tile_mineral_output` | 提取模式 |
+| `tech_titan_hull_1` | 改进泰坦船体 |
+| `tech_btc_1` | 星爆器 |
+| `tech_leviathan_techgenesis` | 星神兽科技创生 |
+| `tech_dark_matter_propulsion` | 暗物质推进 |
+| `tech_fe_assembly_1` | 机器人生产节点 |
+| `tech_fe_assembly_2` | 机器人量子生产中心 |
+| `tech_fe_fabricator_2` | 次元制造机 |
+| `tech_fe_fabricator_1` | 次元复制机 |
+| `tech_titans` | 泰坦 |
+| `tech_mine_living_metal` | 活体金属 |
+| `tech_repeatable_weapon_type_explosive_damage` | 热力学当量控制 |
+| `tech_repeatable_improved_armor_output` | 物质压缩 |
+| `tech_ring_world` | 环形区段 |
+| `tech_cosmogenesis_battlecruiser` | 神秘战巡舰 |
+| `tech_nanite_repair_system` | 纳米修复系统 |
+| `tech_nanite_autocannon` | 纳米机关炮 |
+| `tech_fe_forge_2` | 纳米熔炉 |
+| `tech_nanite_flak_batteries` | 纳米高射炮 |
+| `tech_repeatable_reduced_building_time` | 组装算法 |
+| `tech_armor_hardeners_2` | 自适应装甲硬化 |
+| `tech_pk_smelter` | 行星炼炉 |
+| `tech_repeatable_weapon_type_kinetic_fire_rate` | 装载效率 |
+| `tech_fe_affluence_2` | 财富中心 |
+| `tech_fe_forge_1` | 超级铸造厂 |
+| `tech_fe_mine_2` | 量子钻穿中心 |
+| `tech_fe_mine_1` | 量子钻穿工厂 |
+| `tech_repeatable_weapon_type_kinetic_damage` | 高密度弹药 |
+
+---
+
+# 未标注领域（1 条）
+
+## 未标注 T2（1 条）
+
+| key | 中文名 |
+|---|---|
+| `null_void_beam` | 太虚光束 |
+

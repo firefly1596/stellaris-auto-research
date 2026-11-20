@@ -1,0 +1,63 @@
+# ============================================================================
+# auto_research —— 群星自动科研接管 MOD
+# ============================================================================
+
+# ---- 运行期产物（不应提交）----
+*.log
+*_report.md
+auto_research_weights.txt
+
+# ---- 构建中间产物 ----
+_buildtest/
+*.err
+*.o
+*.obj
+*.a
+*.dll.a
+*.def
+
+# ---- 可执行文件（不提交测试 exe，让别人自己编）----
+*.exe
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ---- 临时文件 ----
+_work/
+_scratch/
+*.tmp
+*.bak
+*.bak-*
+
+# ---- 历史遗留的临时调试源码（不进仓库）----
+_*.cpp
+shadow_test.cpp
+shadow_test2.cpp
+shadow_test3.cpp
+tech_probe.cpp
+
+# ============================================================================
+# ⚠️ 以下必须提交，不要加规则忽略它们：
+#   bin/auto_research.dll           使用版（用户装这个）
+#   bin/auto_research_debug.dll     维护版
+#   src/auto_research.cpp           主源码
+#   src/ar_*.h                      12 个头文件（全部依赖）
+#   src/*_test.cpp src/*verify.cpp  12 个测试（681 项断言）
+#   src/build.sh                    构建脚本
+#   docs/*.md                       文档
+#   tools/analyze_log.py            日志分析工具
+#   tools/TECH_KEY_NAMES.md         科技 key 对照表
+#   tools/tech_names.json           科技名数据
+#
+# 注意：*.exe 被忽略，但构建产物是 .dll，不受影响。
+# ============================================================================
