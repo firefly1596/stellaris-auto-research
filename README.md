@@ -1,4 +1,4 @@
-# Stellaris Auto Research
+﻿# Stellaris Auto Research
 
 群星（Stellaris）自动科研接管 MOD —— 让自动科研按你的配置挑科技，跟你会手动选的一样。
 
@@ -20,6 +20,15 @@
 
 ## 快速开始（3 步）
 
+### 0. 先装注入器（如果还没装）
+
+本项目是一个 DLL，需要靠注入器把它加载进游戏进程：
+
+**[Stellaris-Mod-Injector](https://github.com/MyresMkG/Stellaris-Mod-Injector)**
+
+按照那边的说明装好（通常是把一个代理 DLL 放到游戏根目录，和 `stellaris.exe` 同级）。
+装好后，游戏根目录下会出现 `injected_mods\` 目录。
+
 ### 1. 装 DLL
 
 把 `bin/auto_research.dll` 放到：
@@ -28,7 +37,8 @@
 E:\Steam\steamapps\common\Stellaris\injected_mods\auto_research\auto_research.dll
 ```
 
-> 如果你没装过注入器，这个路径可能不存在。本项目假设你已经有能加载 DLL 的注入器。
+> 路径里的盘符按你自己的实际安装位置改。`auto_research` 这个子目录如果不存在，自己建一个。
+> **必须是 `injected_mods` 的直接子目录** —— 注入器只扫描一层。
 
 ### 2. 启动游戏，让它生成配置文件
 
@@ -410,3 +420,4 @@ A: 并列随机时恰好抽到了游戏原本也要选的那个。此时实际�
 ## 更新日志
 
 见 [`CHANGELOG.md`](CHANGELOG.md)。
+
