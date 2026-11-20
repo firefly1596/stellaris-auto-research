@@ -79,6 +79,13 @@ run_tests() {
     local total=0
     local failed=0
 
+    # ★ 测试需要一个可写的临时目录。
+    #   config_filetest 默认用 GetTempPathA()，在某些环境下（沙箱 / 受限用户）
+    #   子进程无法写入系统 %TEMP%，会报 9 passed / 19 failed。
+    #   这里显式给一个可写目录。
+    WORKDIR="$(pwd)/_test_tmp"
+    mkdir -p "$WORKDIR"
+
     for t in $TESTS; do
         if [ ! -f "$t.cpp" ]; then
             echo "  [SKIP] $t.cpp 不存在"
@@ -92,7 +99,8 @@ run_tests() {
             continue
         fi
 
-        if out=$(./"$t.exe" 2>&1); then
+        # 支持 --dir 的测试传工作目录，其余忽略该参数
+        if out=$(./"$t.exe" --dir "$WORKDIR" 2>&1) || out=$(./"$t.exe" 2>&1); then
             n=$(echo "$out" | grep -oE '[0-9]+ *(项|passed|PASS)' | tail -1 | grep -oE '[0-9]+' || echo "?")
             echo "OK"
             total=$((total + 1))
@@ -103,6 +111,8 @@ run_tests() {
         fi
         rm -f "$t.exe"
     done
+
+    rmdir "$WORKDIR" 2>/dev/null || true
 
     echo ""
     if [ $failed -eq 0 ]; then
