@@ -24,28 +24,33 @@
 
 本项目是一个 DLL，需要靠注入器把它加载进游戏进程：
 
-**[Stellaris-Mod-Injector](https://github.com/MyresMkG/Stellaris-Mod-Injector)**
+**[Stellaris-Mod-Injector](https://github.com/MyresMkG/Stellaris-Mod-Injector/releases)**
 
-按照那边的说明装好（通常是把一个代理 DLL 放到游戏根目录，和 `stellaris.exe` 同级）。
-装好后，游戏根目录下会出现 `injected_mods\` 目录。
-
-### 1. 装 DLL
-
-把 `bin/auto_research.dll` 放到：
+下载发行版，挑一个代理 DLL（`dxgi` / `d3d11` / `d3dcompiler_47` / `version` / `winmm`，任选一个）复制到游戏根目录，和 `stellaris.exe` 同级：
 
 ```
-E:\Steam\steamapps\common\Stellaris\injected_mods\auto_research\auto_research.dll
+Stellaris\
+├── stellaris.exe
+└── dxgi.dll          ← 从发行版复制的代理 DLL
 ```
 
-> 路径里的盘符按你自己的实际安装位置改。`auto_research` 这个子目录如果不存在，自己建一个。
-> **必须是 `injected_mods` 的直接子目录** —— 注入器只扫描一层。
+### 1. 建目录，放 DLL
+
+```
+Stellaris\
+└── injected_mods\
+    └── auto_research\                 ← 新建这个文件夹
+        └── auto_research.dll          ← 放这里
+```
+
+> **必须放在 `injected_mods` 的子目录里** —— 注入器只扫一层子目录，根目录和更深层都不认。
 
 ### 2. 启动游戏，让它生成配置文件
 
-第一次启动后，DLL 会在**同目录**自动创建：
+第一次启动后，DLL 会在**自己所在目录**自动创建：
 
 ```
-E:\Steam\steamapps\common\Stellaris\injected_mods\auto_research\
+Stellaris\injected_mods\auto_research\
     ├── auto_research.dll            ← 你放的
     ├── auto_research_weights.txt    ← 自动生成（配置）
     └── auto_research.log            ← 自动生成（日志）
@@ -284,7 +289,7 @@ tech_xxx = <整数>              # 科技条目，可以写多个
 
 ```
 1. 关游戏
-2. 删掉 injected_mods\auto_research\ 整个目录
+2. 删掉 injected_mods\auto_research\ 整个目录（就是装它的那个文件夹）
 3. 如果注入器配置里还写着这个 DLL，也删掉对应行
 ```
 
